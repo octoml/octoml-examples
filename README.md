@@ -6,9 +6,9 @@ UPDATE: [YOLOv4](https://github.com/onnx/models/raw/master/vision/object_detecti
 
 Currently, this repository includes a small number of previously converted ONNX models for trial use with the Octomizer.
 
-If you are unfamiliar with ONNX format models, we recommend using the ONNX tutorials to convert your model from TensorFlow, PyTorch, or other common model formats: https://github.com/onnx/tutorials#converting-to-onnx-format
+If you are unfamiliar with ONNX format models, we recommend using the [ONNX tutorials](https://github.com/onnx/tutorials#converting-to-onnx-format) to convert your model from TensorFlow, PyTorch, or other common model formats.
 
-If you are unfamiliar with identifying input layer names and shapes in ONNX models, a useful third-party tool for model inspection is Netron (online at https://netron.app/ and available for local use at https://github.com/lutzroeder/netron).
+If you are unfamiliar with identifying input layer names and shapes in ONNX models, a useful third-party tool for model inspection is Netron (either [online](https://netron.app/) and via [local use](https://github.com/lutzroeder/netron).
 
 For computer vision models, the Octomizer takes input shapes in NCHW format.
 
