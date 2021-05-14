@@ -2,9 +2,7 @@
 
 A public repository of helpful scripts, models, and useful resources for users of the Octomizer.
 
-UPDATE: YOLOv4 and SSD models are now available at:
-https://github.com/onnx/models/raw/master/vision/object_detection_segmentation/yolov4/model/yolov4.tar.gz
-https://github.com/onnx/models/raw/master/vision/object_detection_segmentation/ssd/model/ssd-10.tar.gz
+UPDATE: [YOLOv4](https://github.com/onnx/models/raw/master/vision/object_detection_segmentation/yolov4/model/yolov4.tar.gz) and [SSD](https://github.com/onnx/models/raw/master/vision/object_detection_segmentation/ssd/model/ssd-10.tar.gz) models are now available.
 
 Currently, this repository includes a small number of previously converted ONNX models for trial use with the Octomizer.
 
