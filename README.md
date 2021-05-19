@@ -16,4 +16,6 @@ For BERT-based models, the Octomizer takes input shapes in the order specified b
 
 
 An example set of appropriate input shapes for BERT is provided here:
+
+
 <img width="482" alt="Screen Shot 2021-05-19 at 9 06 05 AM" src="https://user-images.githubusercontent.com/59585799/118846317-72b9c000-b881-11eb-8fe8-f2193e229645.png">
