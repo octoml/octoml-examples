@@ -6,12 +6,14 @@ UPDATE: [YOLOv4](https://github.com/onnx/models/raw/master/vision/object_detecti
 
 Currently, this repository includes a small number of previously converted ONNX models for trial use with the Octomizer.
 
+The Octomizer uses ONNX-RT, the runtime for the ONNX model format, as a second inferencing engine and common comparison point with TVM.  While we will attempt to support as many models as possible in ONNX-RT, not all models will run in ONNX-RT.
+
 If you are unfamiliar with ONNX format models, we recommend using the [ONNX tutorials](https://github.com/onnx/tutorials#converting-to-onnx-format) to convert your model from TensorFlow, PyTorch, or other common model formats.
 
 If you are unfamiliar with identifying input layer names and shapes in ONNX models, a useful third-party tool for model inspection is Netron (either [online](https://netron.app/) or via [local use](https://github.com/lutzroeder/netron)).
 
 For BERT-based models, the Octomizer takes input shapes in the order specified by the ONNX model.  In order to begin optimizations, all input layer names and shapes must be entered.  For input shapes listed as 'unknown' or 'any,' the user must specify the shape.  In generic BERT models, this is typically the batch size of the model.  
 
-An example appropriate input name and shape is: input name=input_mask:0, datatype=int64, input shape=[1, 256]. 
 
-The Octomizer uses ONNX-RT, the runtime for the ONNX model format, as a second inferencing engine and common comparison point with TVM.  While we will attempt to support as many models as possible in ONNX-RT, not all models will run in ONNX-RT.
+An example set of appropriate input shapes for BERT is provided here:
+<img width="482" alt="Screen Shot 2021-05-19 at 9 06 05 AM" src="https://user-images.githubusercontent.com/59585799/118846317-72b9c000-b881-11eb-8fe8-f2193e229645.png">
